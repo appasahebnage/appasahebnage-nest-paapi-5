@@ -1,0 +1,12 @@
+.github
+.vscode
+.husky
+node_modules/
+src/
+.env
+.gitignore
+.prettierrc
+commitlint.config.js
+eslint.config.mjs
+release.config.js
+tsconfig.json

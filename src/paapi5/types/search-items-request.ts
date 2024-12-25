@@ -1,0 +1,37 @@
+import { Availability } from "./availability";
+import { Condition } from "./condition";
+import { DeliveryFlag } from "./delivery-flag";
+import { Merchant } from "./merchant";
+import { PartnerType } from "./partner-type";
+import { SearchItemsResource } from "./search-items-resources";
+import { SortBy } from "./sort-by";
+
+export type SearchItemsRequest = {
+  Actor?: string;
+  Artist?: string;
+  Author?: string;
+  Availability?: Availability;
+  Brand?: string;
+  BrowseNodeId?: string;
+  Condition?: Condition;
+  CurrencyOfPreference?: string;
+  DeliveryFlags?: DeliveryFlag[];
+  ItemCount?: number;
+  ItemPage?: number;
+  Keywords?: string;
+  LanguagesOfPreference?: string[];
+  Marketplace?: string;
+  MaxPrice?: number;
+  Merchant?: Merchant;
+  MinPrice?: number;
+  MinReviewsRating?: number;
+  MinSavingPercent?: number;
+  OfferCount?: number;
+  PartnerTag: string;
+  PartnerType: PartnerType;
+  Properties?: object;
+  Resources?: SearchItemsResource[];
+  SearchIndex?: string;
+  SortBy?: SortBy;
+  Title?: string;
+};

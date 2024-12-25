@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "getbrowsenodes",
+        "getitems",
+        "getvariations",
+        "paapi",
+        "searchitems",
+        "webservices"
+    ],
+    "[typescript]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "files.eol": "\n",
+}
